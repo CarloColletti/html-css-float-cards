@@ -13,19 +13,48 @@
     margin: auto;
 }
 
-.clearfix::after{
+.clearfix::after,
+{
     content: "";
     clear: both;
     display: table;
 }
 
+.colum{
+    
+    width: calc(100%/3);
+    background-color: #0f0e17;
+    float: left;
+
+}
 
 
 /* general */
 header{
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 h1{
     color: #e53170;
+    padding: 2rem;
+}
+
+img{
+    max-width: 25%;
+    float: left;
+}
+/* colori  */
+
+h2,li:first-child{
+    color: white;
+    font-size: 1rem;
+}
+
+li:last-child{
+    color: #4dccf2;
+}
+
+li{
+    list-style: none;
 }

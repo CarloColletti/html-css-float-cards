@@ -18,3 +18,14 @@
     clear: both;
     display: table;
 }
+
+
+
+/* general */
+header{
+    text-align: center;
+}
+
+h1{
+    color: #e53170;
+}

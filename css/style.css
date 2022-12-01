@@ -2,3 +2,10 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+
+/* utility */
+
+.contenitore{
+    max-width: 80%;
+}

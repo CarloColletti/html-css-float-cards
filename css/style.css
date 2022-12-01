@@ -1,14 +1,15 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0S;
+    padding: 0;
 }
 
 
 /* utility */
 
 .contenitore{
-    max-width: 80%;
+    width: 80%;
+    max-width: 1200px;
     margin: auto;
 }
 
